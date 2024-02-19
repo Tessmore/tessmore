@@ -116,3 +116,8 @@ small {
         height: auto;
     }
 }
+
+.footer {
+    padding-top: 20px;
+    border-top: 12px solid black;
+}
