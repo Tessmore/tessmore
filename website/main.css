@@ -73,6 +73,7 @@ blockquote, ul, ol, dl, table, pre {
 
 p {
   margin: 1.2rem 0;
+  max-width: 740px;
 }
 
 ul {
@@ -103,7 +104,27 @@ small {
 }
 
 .header {
-    margin: 1rem 0 4rem 0;
+    margin: 1rem 0 2rem 0;
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 2.4rem;
+    align-items: center;
+
+    h1 {
+        font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+        font-size: 2.4rem;
+        font-weight: bold;
+    }
+}
+
+.about {
+    display: flex;
+    padding-bottom: 2rem;
+    border-bottom: 8px solid #eee;
+
+    p {
+        margin: 0;
+    }
 }
 
 .block {
